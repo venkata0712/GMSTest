@@ -1,0 +1,101 @@
+15:01:20,138  INFO devpinoyLogger:62 - Launching Chrome !!!
+15:01:22,511  INFO devpinoyLogger:72 - Navigated to : https://staging_intl.rampwms.com/
+15:01:24,694 DEBUG devpinoyLogger:97 - Typing in an Element : [[ChromeDriver: chrome on WINDOWS (dc804a27c5f692a6e86a0ee7c41b57a0)] -> id: userName] entered value as : ramp
+15:01:24,789 DEBUG devpinoyLogger:97 - Typing in an Element : [[ChromeDriver: chrome on WINDOWS (dc804a27c5f692a6e86a0ee7c41b57a0)] -> id: passwordLogin] entered value as : 7410qa
+15:01:37,241 DEBUG devpinoyLogger:88 - Clicking on an Element : [[ChromeDriver: chrome on WINDOWS (dc804a27c5f692a6e86a0ee7c41b57a0)] -> xpath: //button[text()='Submit']]
+15:01:37,272 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+15:01:37,275 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+15:01:37,279 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+15:01:37,282 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+15:01:37,283 DEBUG cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/User/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+15:01:47,757 DEBUG devpinoyLogger:88 - Clicking on an Element : [[ChromeDriver: chrome on WINDOWS (dc804a27c5f692a6e86a0ee7c41b57a0)] -> xpath: //li/a[text()='Services']]
+15:02:00,616 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+15:02:00,617 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+15:02:00,617 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+15:02:00,617 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+15:02:00,617 DEBUG cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/User/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+15:02:14,866 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+15:02:14,867 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+15:02:14,868 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+15:02:14,869 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+15:02:14,869 DEBUG cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/User/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+15:02:29,105 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+15:02:29,105 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+15:02:29,105 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+15:02:29,106 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+15:02:29,106 DEBUG cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/User/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+15:02:41,508 DEBUG devpinoyLogger:88 - Clicking on an Element : [[ChromeDriver: chrome on WINDOWS (dc804a27c5f692a6e86a0ee7c41b57a0)] -> xpath: //li/a[text()='Services']]
+15:02:54,638 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+15:02:54,638 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+15:02:54,638 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+15:02:54,639 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+15:02:54,639 DEBUG cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/User/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+15:03:09,229 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+15:03:09,230 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+15:03:09,231 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+15:03:09,231 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+15:03:09,231 DEBUG cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/User/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+15:03:18,498 DEBUG devpinoyLogger:88 - Clicking on an Element : [[ChromeDriver: chrome on WINDOWS (dc804a27c5f692a6e86a0ee7c41b57a0)] -> xpath: //li/a[text()='Services']]
+15:03:20,653 DEBUG devpinoyLogger:88 - Clicking on an Element : [[ChromeDriver: chrome on WINDOWS (dc804a27c5f692a6e86a0ee7c41b57a0)] -> id: insurance_claimEditId2]
+15:03:20,752 DEBUG devpinoyLogger:88 - Clicking on an Element : [[ChromeDriver: chrome on WINDOWS (dc804a27c5f692a6e86a0ee7c41b57a0)] -> id: saveInsuranceDetails]
+15:03:22,587 DEBUG devpinoyLogger:88 - Clicking on an Element : [[ChromeDriver: chrome on WINDOWS (dc804a27c5f692a6e86a0ee7c41b57a0)] -> id: add_field_buttonService]
+15:03:24,350 DEBUG devpinoyLogger:88 - Clicking on an Element : [[ChromeDriver: chrome on WINDOWS (dc804a27c5f692a6e86a0ee7c41b57a0)] -> id: add_field_buttonService]
+15:03:24,577 DEBUG devpinoyLogger:88 - Clicking on an Element : [[ChromeDriver: chrome on WINDOWS (dc804a27c5f692a6e86a0ee7c41b57a0)] -> xpath: //button[contains(@onclick, 'saveServiceEstimate')]]
+15:03:29,990 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+15:03:29,991 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+15:03:29,991 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+15:03:29,992 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+15:03:29,992 DEBUG cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/User/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+15:03:39,407 DEBUG devpinoyLogger:88 - Clicking on an Element : [[ChromeDriver: chrome on WINDOWS (dc804a27c5f692a6e86a0ee7c41b57a0)] -> xpath: //li/a[text()='Services']]
+15:03:41,536 DEBUG devpinoyLogger:88 - Clicking on an Element : [[ChromeDriver: chrome on WINDOWS (dc804a27c5f692a6e86a0ee7c41b57a0)] -> id: insurance_claimEditId2]
+15:03:41,624 DEBUG devpinoyLogger:88 - Clicking on an Element : [[ChromeDriver: chrome on WINDOWS (dc804a27c5f692a6e86a0ee7c41b57a0)] -> id: saveInsuranceDetails]
+15:03:53,454 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+15:03:53,455 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+15:03:53,455 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+15:03:53,455 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+15:03:53,455 DEBUG cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/User/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+15:04:07,644 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+15:04:07,644 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+15:04:07,645 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+15:04:07,645 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+15:04:07,645 DEBUG cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/User/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+15:04:21,861 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+15:04:21,862 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+15:04:21,862 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+15:04:21,863 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+15:04:21,863 DEBUG cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/User/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+15:04:36,104 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+15:04:36,105 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+15:04:36,105 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+15:04:36,105 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+15:04:36,106 DEBUG cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/User/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+15:04:50,341 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+15:04:50,342 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+15:04:50,342 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+15:04:50,342 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+15:04:50,342 DEBUG cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/User/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+15:05:04,599 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+15:05:04,599 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+15:05:04,599 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+15:05:04,600 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+15:05:04,600 DEBUG cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/User/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+15:05:18,831 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+15:05:18,832 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+15:05:18,832 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+15:05:18,832 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+15:05:18,832 DEBUG cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/User/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+15:05:33,103 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+15:05:33,104 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+15:05:33,104 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+15:05:33,104 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+15:05:33,105 DEBUG cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/User/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+15:05:47,397 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+15:05:47,397 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+15:05:47,397 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+15:05:47,399 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+15:05:47,399 DEBUG cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/User/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+15:06:01,637 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+15:06:01,638 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+15:06:01,638 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+15:06:01,638 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+15:06:01,638 DEBUG cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/User/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"

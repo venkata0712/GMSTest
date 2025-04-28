@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test"
+           tests="3"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="12.170">
+  <properties />
+  
+  
+            <testcase name="submitOverAllDiscTest" time="0.635" classname="com.gms.testcases.DiscountTest" />
+                <testcase name="clickDiscountBtnTest" time="3.324" classname="com.gms.testcases.DiscountTest" />
+                <testcase name="submitLineitemDiscTest" time="8.211" classname="com.gms.testcases.DiscountTest" />
+      
+</testsuite>

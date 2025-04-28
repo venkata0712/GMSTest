@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test"
+           tests="17"
+           failures="6"
+           errors="0"
+           skipped="0"
+           time="308.498">
+  <properties />
+            <testcase name="custRegTest" time="12.384" classname="com.gms.testcases.CustRegTest">
+                <failure type="org.openqa.selenium.TimeoutException"
+                  message="Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on WINDOWS (d46cc9bc7080b0aad009df3efcc47774)] -&gt; id: customerReg] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.9.0&apos;, revision: &apos;d7057100a6&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.4.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 135.0.7049.85, chrome: {chromedriverVersion: 135.0.7049.84 (6c019e560019..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63489}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63489/devtoo..., se:cdpVersion: 135.0.7049.85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d46cc9bc7080b0aad009df3efcc47774"
+              >
+<![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on WINDOWS (d46cc9bc7080b0aad009df3efcc47774)] -> id: customerReg] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.9.0', revision: 'd7057100a6'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 135.0.7049.85, chrome: {chromedriverVersion: 135.0.7049.84 (6c019e560019..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63489}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63489/devtoo..., se:cdpVersion: 135.0.7049.85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d46cc9bc7080b0aad009df3efcc47774
+  org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:87)
+  org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+  com.gms.base.Page.click(Page.java:86)
+  com.gms.pages.actions.HomePage.clickNewCustRegTab(HomePage.java:25)
+  com.gms.testcases.CustRegTest.custRegTest(CustRegTest.java:31)
+  java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+  java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.base/java.lang.reflect.Method.invoke(Method.java:568)
+  org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+  org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+  org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+  org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+  org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+  org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+  org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+  org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+  java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+  org.testng.TestRunner.privateRun(TestRunner.java:829)
+  org.testng.TestRunner.run(TestRunner.java:602)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+  org.testng.SuiteRunner.run(SuiteRunner.java:330)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+  org.testng.TestNG.runSuites(TestNG.java:1099)
+  org.testng.TestNG.run(TestNG.java:1067)
+  org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+  org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+  org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="custRegTest" time="12.514" classname="com.gms.testcases.CustRegTest">
+                <failure type="org.openqa.selenium.TimeoutException"
+                  message="Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on WINDOWS (d46cc9bc7080b0aad009df3efcc47774)] -&gt; id: customerReg] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.9.0&apos;, revision: &apos;d7057100a6&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.4.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 135.0.7049.85, chrome: {chromedriverVersion: 135.0.7049.84 (6c019e560019..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63489}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63489/devtoo..., se:cdpVersion: 135.0.7049.85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d46cc9bc7080b0aad009df3efcc47774"
+              >
+<![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on WINDOWS (d46cc9bc7080b0aad009df3efcc47774)] -> id: customerReg] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.9.0', revision: 'd7057100a6'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 135.0.7049.85, chrome: {chromedriverVersion: 135.0.7049.84 (6c019e560019..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63489}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63489/devtoo..., se:cdpVersion: 135.0.7049.85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d46cc9bc7080b0aad009df3efcc47774
+  org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:87)
+  org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+  com.gms.base.Page.click(Page.java:86)
+  com.gms.pages.actions.HomePage.clickNewCustRegTab(HomePage.java:25)
+  com.gms.testcases.CustRegTest.custRegTest(CustRegTest.java:31)
+  java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+  java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.base/java.lang.reflect.Method.invoke(Method.java:568)
+  org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+  org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+  org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+  org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+  org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+  org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+  org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+  org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+  java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+  org.testng.TestRunner.privateRun(TestRunner.java:829)
+  org.testng.TestRunner.run(TestRunner.java:602)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+  org.testng.SuiteRunner.run(SuiteRunner.java:330)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+  org.testng.TestNG.runSuites(TestNG.java:1099)
+  org.testng.TestNG.run(TestNG.java:1067)
+  org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+  org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+  org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="custRegTest" time="12.315" classname="com.gms.testcases.CustRegTest">
+                <failure type="org.openqa.selenium.TimeoutException"
+                  message="Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on WINDOWS (d46cc9bc7080b0aad009df3efcc47774)] -&gt; id: customerReg] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.9.0&apos;, revision: &apos;d7057100a6&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.4.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 135.0.7049.85, chrome: {chromedriverVersion: 135.0.7049.84 (6c019e560019..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63489}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63489/devtoo..., se:cdpVersion: 135.0.7049.85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d46cc9bc7080b0aad009df3efcc47774"
+              >
+<![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on WINDOWS (d46cc9bc7080b0aad009df3efcc47774)] -> id: customerReg] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.9.0', revision: 'd7057100a6'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 135.0.7049.85, chrome: {chromedriverVersion: 135.0.7049.84 (6c019e560019..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63489}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63489/devtoo..., se:cdpVersion: 135.0.7049.85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d46cc9bc7080b0aad009df3efcc47774
+  org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:87)
+  org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+  com.gms.base.Page.click(Page.java:86)
+  com.gms.pages.actions.HomePage.clickNewCustRegTab(HomePage.java:25)
+  com.gms.testcases.CustRegTest.custRegTest(CustRegTest.java:31)
+  jdk.internal.reflect.GeneratedMethodAccessor47.invoke(Unknown Source)
+  java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.base/java.lang.reflect.Method.invoke(Method.java:568)
+  org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+  org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+  org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+  org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+  org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+  org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+  org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+  org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+  java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+  org.testng.TestRunner.privateRun(TestRunner.java:829)
+  org.testng.TestRunner.run(TestRunner.java:602)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+  org.testng.SuiteRunner.run(SuiteRunner.java:330)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+  org.testng.TestNG.runSuites(TestNG.java:1099)
+  org.testng.TestNG.run(TestNG.java:1067)
+  org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+  org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+  org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="custRegTest" time="29.100" classname="com.gms.testcases.CustRegTest">
+                <failure type="org.openqa.selenium.TimeoutException"
+                  message="Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on WINDOWS (d46cc9bc7080b0aad009df3efcc47774)] -&gt; id: closeButtonImages] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.9.0&apos;, revision: &apos;d7057100a6&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.4.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 135.0.7049.85, chrome: {chromedriverVersion: 135.0.7049.84 (6c019e560019..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63489}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63489/devtoo..., se:cdpVersion: 135.0.7049.85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d46cc9bc7080b0aad009df3efcc47774"
+              >
+<![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on WINDOWS (d46cc9bc7080b0aad009df3efcc47774)] -> id: closeButtonImages] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.9.0', revision: 'd7057100a6'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 135.0.7049.85, chrome: {chromedriverVersion: 135.0.7049.84 (6c019e560019..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63489}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63489/devtoo..., se:cdpVersion: 135.0.7049.85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d46cc9bc7080b0aad009df3efcc47774
+  org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:87)
+  org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+  com.gms.base.Page.click(Page.java:86)
+  com.gms.pages.actions.NewCustReg.custReg(NewCustReg.java:110)
+  com.gms.testcases.CustRegTest.custRegTest(CustRegTest.java:40)
+  java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+  java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.base/java.lang.reflect.Method.invoke(Method.java:568)
+  org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+  org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+  org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+  org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+  org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+  org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+  org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+  org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+  java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+  org.testng.TestRunner.privateRun(TestRunner.java:829)
+  org.testng.TestRunner.run(TestRunner.java:602)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+  org.testng.SuiteRunner.run(SuiteRunner.java:330)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+  org.testng.TestNG.runSuites(TestNG.java:1099)
+  org.testng.TestNG.run(TestNG.java:1067)
+  org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+  org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+  org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="custRegTest" time="12.515" classname="com.gms.testcases.CustRegTest">
+                <failure type="org.openqa.selenium.TimeoutException"
+                  message="Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on WINDOWS (d46cc9bc7080b0aad009df3efcc47774)] -&gt; id: customerReg] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.9.0&apos;, revision: &apos;d7057100a6&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.4.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 135.0.7049.85, chrome: {chromedriverVersion: 135.0.7049.84 (6c019e560019..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63489}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63489/devtoo..., se:cdpVersion: 135.0.7049.85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d46cc9bc7080b0aad009df3efcc47774"
+              >
+<![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on WINDOWS (d46cc9bc7080b0aad009df3efcc47774)] -> id: customerReg] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.9.0', revision: 'd7057100a6'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 135.0.7049.85, chrome: {chromedriverVersion: 135.0.7049.84 (6c019e560019..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63489}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63489/devtoo..., se:cdpVersion: 135.0.7049.85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d46cc9bc7080b0aad009df3efcc47774
+  org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:87)
+  org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+  com.gms.base.Page.click(Page.java:86)
+  com.gms.pages.actions.HomePage.clickNewCustRegTab(HomePage.java:25)
+  com.gms.testcases.CustRegTest.custRegTest(CustRegTest.java:31)
+  java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+  java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.base/java.lang.reflect.Method.invoke(Method.java:568)
+  org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+  org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+  org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+  org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+  org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+  org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+  org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+  org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+  java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+  org.testng.TestRunner.privateRun(TestRunner.java:829)
+  org.testng.TestRunner.run(TestRunner.java:602)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+  org.testng.SuiteRunner.run(SuiteRunner.java:330)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+  org.testng.TestNG.runSuites(TestNG.java:1099)
+  org.testng.TestNG.run(TestNG.java:1067)
+  org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+  org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+  org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="custRegTest" time="12.486" classname="com.gms.testcases.CustRegTest">
+                <failure type="org.openqa.selenium.TimeoutException"
+                  message="Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on WINDOWS (d46cc9bc7080b0aad009df3efcc47774)] -&gt; id: customerReg] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.9.0&apos;, revision: &apos;d7057100a6&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.4.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 135.0.7049.85, chrome: {chromedriverVersion: 135.0.7049.84 (6c019e560019..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63489}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63489/devtoo..., se:cdpVersion: 135.0.7049.85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d46cc9bc7080b0aad009df3efcc47774"
+              >
+<![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on WINDOWS (d46cc9bc7080b0aad009df3efcc47774)] -> id: customerReg] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.9.0', revision: 'd7057100a6'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 135.0.7049.85, chrome: {chromedriverVersion: 135.0.7049.84 (6c019e560019..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63489}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63489/devtoo..., se:cdpVersion: 135.0.7049.85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d46cc9bc7080b0aad009df3efcc47774
+  org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:87)
+  org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+  com.gms.base.Page.click(Page.java:86)
+  com.gms.pages.actions.HomePage.clickNewCustRegTab(HomePage.java:25)
+  com.gms.testcases.CustRegTest.custRegTest(CustRegTest.java:31)
+  java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+  java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.base/java.lang.reflect.Method.invoke(Method.java:568)
+  org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+  org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+  org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+  org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+  org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+  org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+  org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+  org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+  java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+  org.testng.TestRunner.privateRun(TestRunner.java:829)
+  org.testng.TestRunner.run(TestRunner.java:602)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+  org.testng.SuiteRunner.run(SuiteRunner.java:330)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+  org.testng.TestNG.runSuites(TestNG.java:1099)
+  org.testng.TestNG.run(TestNG.java:1067)
+  org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+  org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+  org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+      </failure>
+
+          </testcase>
+  
+  
+            <testcase name="custRegTest" time="19.418" classname="com.gms.testcases.CustRegTest" />
+                <testcase name="custRegTest" time="19.887" classname="com.gms.testcases.CustRegTest" />
+                <testcase name="custRegTest" time="19.399" classname="com.gms.testcases.CustRegTest" />
+                <testcase name="custRegTest" time="19.508" classname="com.gms.testcases.CustRegTest" />
+                <testcase name="custRegTest" time="19.602" classname="com.gms.testcases.CustRegTest" />
+                <testcase name="custRegTest" time="19.656" classname="com.gms.testcases.CustRegTest" />
+                <testcase name="custRegTest" time="19.657" classname="com.gms.testcases.CustRegTest" />
+                <testcase name="custRegTest" time="19.500" classname="com.gms.testcases.CustRegTest" />
+                <testcase name="custRegTest" time="20.275" classname="com.gms.testcases.CustRegTest" />
+                <testcase name="custRegTest" time="20.494" classname="com.gms.testcases.CustRegTest" />
+                <testcase name="custRegTest" time="19.788" classname="com.gms.testcases.CustRegTest" />
+      
+</testsuite>

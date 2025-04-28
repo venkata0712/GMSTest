@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test"
+           tests="4"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="71.220">
+  <properties />
+  
+  
+            <testcase name="changeInvoiceTest" time="39.488" classname="com.gms.testcases.GenerateInvoiceTest" />
+                <testcase name="clickInvoiceBtnTest" time="12.076" classname="com.gms.testcases.GenerateInvoiceTest" />
+                <testcase name="generateTaxInvoiceTest" time="15.170" classname="com.gms.testcases.GenerateInvoiceTest" />
+                <testcase name="generateProformatInvTest" time="4.486" classname="com.gms.testcases.GenerateInvoiceTest" />
+      
+</testsuite>

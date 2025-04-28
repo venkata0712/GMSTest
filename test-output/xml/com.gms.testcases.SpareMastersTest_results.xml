@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test"
+           tests="3"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="82.639">
+  <properties />
+  
+  
+            <testcase name="addexistSparesTest" time="36.646" classname="com.gms.testcases.SpareMastersTest" />
+                <testcase name="clickSpareMasterMenu" time="8.515" classname="com.gms.testcases.SpareMastersTest" />
+                <testcase name="addNewSparesTest" time="37.478" classname="com.gms.testcases.SpareMastersTest" />
+      
+</testsuite>

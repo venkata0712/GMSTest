@@ -1,0 +1,16 @@
+15/04/2025 15:01:20 devpinoyLogger Launching Chrome !!!
+15/04/2025 15:01:22 devpinoyLogger Navigated to : https://staging_intl.rampwms.com/
+15/04/2025 15:01:24 devpinoyLogger Typing in an Element : [[ChromeDriver: chrome on WINDOWS (dc804a27c5f692a6e86a0ee7c41b57a0)] -> id: userName] entered value as : ramp
+15/04/2025 15:01:24 devpinoyLogger Typing in an Element : [[ChromeDriver: chrome on WINDOWS (dc804a27c5f692a6e86a0ee7c41b57a0)] -> id: passwordLogin] entered value as : 7410qa
+15/04/2025 15:01:37 devpinoyLogger Clicking on an Element : [[ChromeDriver: chrome on WINDOWS (dc804a27c5f692a6e86a0ee7c41b57a0)] -> xpath: //button[text()='Submit']]
+15/04/2025 15:01:47 devpinoyLogger Clicking on an Element : [[ChromeDriver: chrome on WINDOWS (dc804a27c5f692a6e86a0ee7c41b57a0)] -> xpath: //li/a[text()='Services']]
+15/04/2025 15:02:41 devpinoyLogger Clicking on an Element : [[ChromeDriver: chrome on WINDOWS (dc804a27c5f692a6e86a0ee7c41b57a0)] -> xpath: //li/a[text()='Services']]
+15/04/2025 15:03:18 devpinoyLogger Clicking on an Element : [[ChromeDriver: chrome on WINDOWS (dc804a27c5f692a6e86a0ee7c41b57a0)] -> xpath: //li/a[text()='Services']]
+15/04/2025 15:03:20 devpinoyLogger Clicking on an Element : [[ChromeDriver: chrome on WINDOWS (dc804a27c5f692a6e86a0ee7c41b57a0)] -> id: insurance_claimEditId2]
+15/04/2025 15:03:20 devpinoyLogger Clicking on an Element : [[ChromeDriver: chrome on WINDOWS (dc804a27c5f692a6e86a0ee7c41b57a0)] -> id: saveInsuranceDetails]
+15/04/2025 15:03:22 devpinoyLogger Clicking on an Element : [[ChromeDriver: chrome on WINDOWS (dc804a27c5f692a6e86a0ee7c41b57a0)] -> id: add_field_buttonService]
+15/04/2025 15:03:24 devpinoyLogger Clicking on an Element : [[ChromeDriver: chrome on WINDOWS (dc804a27c5f692a6e86a0ee7c41b57a0)] -> id: add_field_buttonService]
+15/04/2025 15:03:24 devpinoyLogger Clicking on an Element : [[ChromeDriver: chrome on WINDOWS (dc804a27c5f692a6e86a0ee7c41b57a0)] -> xpath: //button[contains(@onclick, 'saveServiceEstimate')]]
+15/04/2025 15:03:39 devpinoyLogger Clicking on an Element : [[ChromeDriver: chrome on WINDOWS (dc804a27c5f692a6e86a0ee7c41b57a0)] -> xpath: //li/a[text()='Services']]
+15/04/2025 15:03:41 devpinoyLogger Clicking on an Element : [[ChromeDriver: chrome on WINDOWS (dc804a27c5f692a6e86a0ee7c41b57a0)] -> id: insurance_claimEditId2]
+15/04/2025 15:03:41 devpinoyLogger Clicking on an Element : [[ChromeDriver: chrome on WINDOWS (dc804a27c5f692a6e86a0ee7c41b57a0)] -> id: saveInsuranceDetails]

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test"
+           tests="1"
+           failures="1"
+           errors="0"
+           skipped="0"
+           time="26.753">
+  <properties />
+            <testcase name="generalpartsEntry" time="26.753" classname="com.gms.testcases.GenericPartsEntryTest">
+                <failure type="org.openqa.selenium.ElementClickInterceptedException"
+                  message="element click intercepted: Element &lt;button type=&quot;button&quot; class=&quot;btn btn-default&quot;&gt;...&lt;/button&gt; is not clickable at point (1029, 573). Other element would receive the click: &lt;div class=&quot;jconfirm-cell&quot;&gt;...&lt;/div&gt;
+  (Session info: chrome=134.0.6998.179)
+Build info: version: &apos;4.9.0&apos;, revision: &apos;d7057100a6&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.4.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [cd7903d94d9ef78b66138ed310927004, clickElement {id=f.CC3D4F3EC3FCB22E0522D60B29A320FD.d.8D00308913EFD83E82028E4277CD3C98.e.1948}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 134.0.6998.179, chrome: {chromedriverVersion: 134.0.6998.165 (fd886e2cb29..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60556}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60556/devtoo..., se:cdpVersion: 134.0.6998.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (cd7903d94d9ef78b66138ed310927004)] -&gt; xpath: //*[@id=&apos;mainBody&apos;]/div[32]/div[2]/div/div/div/div/div/div/div/div[4]/button]
+Session ID: cd7903d94d9ef78b66138ed310927004"
+              >
+<![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button type="button" class="btn btn-default">...</button> is not clickable at point (1029, 573). Other element would receive the click: <div class="jconfirm-cell">...</div>
+  (Session info: chrome=134.0.6998.179)
+Build info: version: '4.9.0', revision: 'd7057100a6'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [cd7903d94d9ef78b66138ed310927004, clickElement {id=f.CC3D4F3EC3FCB22E0522D60B29A320FD.d.8D00308913EFD83E82028E4277CD3C98.e.1948}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 134.0.6998.179, chrome: {chromedriverVersion: 134.0.6998.165 (fd886e2cb29..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60556}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60556/devtoo..., se:cdpVersion: 134.0.6998.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (cd7903d94d9ef78b66138ed310927004)] -> xpath: //*[@id='mainBody']/div[32]/div[2]/div/div/div/div/div/div/div/div[4]/button]
+Session ID: cd7903d94d9ef78b66138ed310927004
+  java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+  java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+  java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+  java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+  java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+  org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+  org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+  org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+  org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+  org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+  org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+  org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+  org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+  org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+  com.gms.base.Page.click(Page.java:87)
+  com.gms.pages.actions.PartsEntryPage.genericPartsbyItem(PartsEntryPage.java:468)
+  com.gms.testcases.GenericPartsEntryTest.generalpartsEntry(GenericPartsEntryTest.java:18)
+  java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+  java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.base/java.lang.reflect.Method.invoke(Method.java:568)
+  org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+  org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+  org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+  org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+  org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+  org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+  org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+  org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+  java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+  org.testng.TestRunner.privateRun(TestRunner.java:829)
+  org.testng.TestRunner.run(TestRunner.java:602)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+  org.testng.SuiteRunner.run(SuiteRunner.java:330)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+  org.testng.TestNG.runSuites(TestNG.java:1099)
+  org.testng.TestNG.run(TestNG.java:1067)
+  org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+  org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+  org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+      </failure>
+
+          </testcase>
+  
+  
+  
+</testsuite>
